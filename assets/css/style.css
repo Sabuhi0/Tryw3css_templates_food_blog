@@ -1,0 +1,63 @@
+@font-face {
+    font-family: DefaultFont;
+    src: url(../fonts/default.woff2) format("woff2");
+    font-display: swap
+}
+
+* {
+    font-family: DefaultFont;
+}
+
+@media only screen and (max-width: 700px) {
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .width-100 {
+        width: auto;
+    }
+}
+
+.page-link {
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #fff;
+    border: none;
+}
+
+.page-link:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #000000;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #9b9b9b;
+    margin: 20px 0;
+}
+
+.c-fs-11 {
+    font-size: 11px;
+}
+
+.c-fs-14 {
+    font-size: 14px;
+}
+
+.c-fs-22 {
+    font-size: 22px;
+}
+
+.line-height {
+    line-height: 3;
+}
